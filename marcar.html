@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vamos marcar!</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Vamos marcar!</h1>
+    <button onclick="redirectToWhatsApp()">Marcar</button>
+</div>
+
+<script>
+    function redirectToWhatsApp() {
+        window.location.href = "https://api.whatsapp.com/send/?phone=5514998395977&text&type=phone_number&app_absent=0";
+    }
+</script>
+</body>
+</html>
